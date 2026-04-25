@@ -1,10 +1,10 @@
 [package]
-name = "sigil"
+name = "pepperflake"
 version = "0.1.0"
 edition = "2021"
 description = "Fast, unforgeable, sortable 64-bit ID generation"
 authors = ["Roman Agilov agilovr@gmail.com"]
-repository = "https://github.com/agilov/sigil"
+repository = "https://github.com/agilov/pepperflake"
 readme = "README.md"
 license = "MIT"
 keywords = ["id", "uid", "snowflake", "generator", "unique"]
@@ -17,7 +17,7 @@ libc = "0.2"
 criterion = "0.5"
 
 [[bench]]
-name = "sigil_benches"
+name = "pepperflake_benches"
 harness = false
 
 [profile.release]

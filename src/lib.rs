@@ -1,4 +1,4 @@
-//! # sigil
+//! # pepperflake
 //!
 //! Fast, unforgeable, sortable 64-bit ID generation.
 //!
@@ -14,7 +14,7 @@
 //!
 //! ## Usage
 //! ```rust
-//! use sigil::{generate, is_valid, configure};
+//! use pepperflake::{generate, is_valid, configure};
 //!
 //! // Optional: Reconfigure bit layout on startup
 //! // configure(12, 8);

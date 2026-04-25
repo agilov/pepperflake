@@ -1,5 +1,5 @@
 use criterion::{black_box, criterion_group, criterion_main, Criterion};
-use sigil::{generate, is_valid, timestamp_millis};
+use pepperflake::{generate, is_valid, timestamp_millis};
 
 fn bench_generate(c: &mut Criterion) {
     // We only benchmark the generation loop.
